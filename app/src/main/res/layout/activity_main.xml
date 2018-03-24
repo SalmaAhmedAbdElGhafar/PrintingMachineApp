@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/select_image_or_file"
+        android:textSize="17sp"
+        android:textColor="@color/black"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textSize="14sp"
+        android:layout_marginTop="20dp"
+        android:visibility="gone"
+        />
+    <ImageView
+        android:id="@+id/imageViewAM"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:scaleType="fitXY"
+        android:visibility="gone"/>
+
+    <Button
+        android:id="@+id/selectFileButtonAM"
+        style="@style/AppButton"
+        android:layout_marginTop="50dp"
+        android:text="@string/select_file_button_text"/>
+    <Button
+        android:id="@+id/selectImageButtonAM"
+        style="@style/AppButton"
+        android:layout_marginTop="10dp"
+        android:text="@string/select_image_button_text"/>
+
+
+</LinearLayout>
